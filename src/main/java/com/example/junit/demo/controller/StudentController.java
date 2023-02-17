@@ -43,4 +43,10 @@ public class StudentController {
 		return studentService.fetchAll();
 		
 	}
+	
+	@GetMapping("/get")
+	public Student  getByStudentName(@PathVariable String name){
+		return studentService.fetchByStudentName(name);
+		
+	}
 }

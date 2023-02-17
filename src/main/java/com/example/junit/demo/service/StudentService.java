@@ -14,4 +14,6 @@ public interface StudentService {
 	Student updateStudent(StdentDto stdentDto,String Id);
 	
 	Student fetchByStudentId(String Id);
+	
+	Student fetchByStudentName(String name);
 }

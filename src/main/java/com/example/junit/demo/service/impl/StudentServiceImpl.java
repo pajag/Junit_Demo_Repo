@@ -40,5 +40,11 @@ public class StudentServiceImpl implements StudentService{
 	public Student fetchByStudentId(String Id) {
 		return studentRepository.findByStudentId(Id);
 	}
+
+	@Override
+	public Student fetchByStudentName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
